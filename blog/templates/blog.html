@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% for post in posts %}
+
+{{post.categoria}}
+
+<a href="{% url 'detalhes' id=post.id %}">
+    <p>{{post.nome}}</p>
+</a>
+<p>{{post.feedbcak}}</p>
+<a href="{% url 'detalhes' id=post.id %}"><img src="{{post.imagem.url}}" alt="imagem de {{post.nome}}"></a>
+{% endfor%}
+
+{% endblock %}
