@@ -1,3 +1,9 @@
 *{
 
 }
+.contt{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 100px 0;
+}
