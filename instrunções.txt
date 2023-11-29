@@ -1,5 +1,5 @@
 precisa de formulario para cadastrar
-precisa de login
 precisa de botao de excluir e editar
-precisa de um ambiente autenticado
-estilizaçoes
+precisa de um ambiente autenticado/precisa de pagina de login
+
+estilizaçoes 
