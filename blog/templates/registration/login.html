@@ -1,10 +1,42 @@
 {% extends '../base.html' %}
 {% block content %}
 {% load static %}
+<div class="longin">
+    <form method="post">
+        <h1>Longin</h1>
+         {{form}} 
+         {% csrf_token %}
+    
+        <!-- <div class="input">
+            <input type="text" placeholder="username" required>
+            <i class='bx bxs-user'></i>
+        </div>
 
-<form class="estilo" method="post"> {% csrf_token %}
-{{form}}
-<button type="submit">entrar</button>
-</form>
+        <div class="input">
+            <input type="password" placeholder="senha" required>
+            <i class='bx bxs-lock-alt'></i>
+        </div> -->
+       
+        <!-- <div class="remember">
+            <label ><input type="checkbox">lembrar senha</label>
+            <a href="#">Forgout password?</a>
+        </div> -->
+
+        <button type="submit" class="btn">ENTRAR</button>
+
+            <!-- <div class="registrar">
+                <p>Não tem uma conta? <a href="#">registarar</a></p>
+            </div> -->
+
+    </form>
+</div>
+
+
+
+
+<!-- <form class="estilo container" method="post"> {% csrf_token %}
+    {{form}}
+    <button type="submit">entrar</button>
+    </form> -->
 
 {% endblock %}

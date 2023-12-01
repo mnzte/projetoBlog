@@ -1,0 +1,9 @@
+
+body{
+   background-image: url(/img/rm222batch3-kul-12.jpg);
+}
+.h1{
+    display: flex;
+    align-items: center;
+    color: brown;
+}
