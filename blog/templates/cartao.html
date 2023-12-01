@@ -3,38 +3,15 @@
 {% load static %}
 
 <div class="contt">
-    
-          <div class="card col-2">
-            <img src="..." class="card-img-top" alt="...">
-    
-            <div class="card-body">
-              <h5 class="card-title">Filmes</h5>
-              <p class="card-text">para ver mais mais opções de filme clique em saiba mais e cadastre o seu</p>
-              <a href="{% url 'filme' %}" class="btn btn-primary">Saiba Mais</a>
-            </div>
-          </div>
-    
-          <div class="card col-2">
-            <img src="..." class="card-img-top" alt="...">
-    
-            <div class="card-body">
-              <h5 class="card-title">Séries</h5>
-              <p class="card-text">para ver mais mais opções de séries clique em saiba mais e cadastre a sua</p>
-              <a href="{% url 'series' %}" class="btn btn-primary">Saiba mais</a>
-            </div>
-          </div>
-    
-          <div class="card col-2 ">
-            <img src="..." class="card-img-top" alt="...">
-    
-            <div class="card-body">
-              <h5 class="card-title">Livros</h5>
-              <p class="card-text">para ver mais mais opções de livros clique em saiba mais e cadastre o seu</p>
-              <a href="{% url 'livro' %}" class="btn btn-primary">Saiba Mais</a>
-            </div>
-          </div>
 
+  <div class="card col-2">
+    <img src="..." class="card-img-top" alt="...">
+
+    <div class="card-body">
+      <h5 class="card-title">livros</h5>
+      <p class="card-text">para ver mais mais opções de seus livros clique em saiba mais</p>
+      <a href="{% url 'livro' %}" class="btn btn-primary">Saiba Mais</a>
+    </div>
+  </div>
 </div>
-  
-  
-  {% endblock %}
+{% endblock %}

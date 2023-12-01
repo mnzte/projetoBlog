@@ -9,11 +9,6 @@ def blog(request):
     {'posts':posts})
 
 @login_required
-def detalhes(request, id):
-    post = Post.objects.get(id=id)
-    return render(request, 'detalhes.html',{'post':post})
-
-@login_required
 def cartao(request):
     return render(request, 'cartao.html',
     )
