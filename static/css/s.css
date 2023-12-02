@@ -13,19 +13,21 @@ body{
     background-size: cover;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     min-height: 100vh;
     
 }
-.contt{
+/* .contt{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 100px ; 
-} 
+    margin: 100px ;  */
+/* }  */
 .longin{
-   
+   display: flex;
+   justify-content: center;
+   align-items: center;
     border: 1px;
     margin: 0;
     padding: 0;
